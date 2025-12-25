@@ -1,0 +1,127 @@
+.whatsapp-section {
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+    color: white;
+}
+
+.whatsapp-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.whatsapp-section .section-title {
+    color: white;
+}
+
+.whatsapp-section .section-title::after {
+    background: white;
+}
+
+.whatsapp-description {
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    opacity: 0.95;
+}
+
+.whatsapp-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.qr-code-placeholder {
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #128c7e;
+    font-weight: 600;
+    box-shadow: var(--shadow-lg);
+}
+
+.qr-code-placeholder span {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.qr-code-placeholder p {
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+.whatsapp-text {
+    max-width: 400px;
+}
+
+.whatsapp-text p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: white;
+    color: #128c7e;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
+
+.whatsapp-button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.whatsapp-button svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .whatsapp-section {
+        padding: 3rem 1rem;
+    }
+
+    .whatsapp-content {
+        gap: 2rem;
+    }
+
+    .qr-code-placeholder {
+        width: 200px;
+        height: 200px;
+    }
+
+    .whatsapp-description {
+        font-size: 1rem;
+    }
+
+    .whatsapp-button {
+        padding: 0.9rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .qr-code-placeholder {
+        width: 180px;
+        height: 180px;
+    }
+
+    .qr-code-placeholder span {
+        font-size: 1.2rem;
+    }
+}
