@@ -15,19 +15,18 @@ const AboutMe: React.FC = () => {
                     </div>
                     <div className="about-text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Hi, I'm Vinita, and I'd like to welcome you to my kitchen! I'm a passionate home cook who has been cooking for my family for
+                            30 years. I come from New Delhi, India, where my love for cooking first started.
                         </p>
                         <p>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                            All my recipes are inspired by my family and
+                            have been passed down through generations. I learnt cooking from my mother, who taught me the importance of fresh ingredients
+                            and keeping your kitchen neat and tidy. She believed that the kitchen is a temple, something that I also hold dear.
                         </p>
                         <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            I started this business because I wanted to share my love for cooking and food with others. I believe that home cooking is healthier and
+                            more fresh than eating out, and I want to help busy families enjoy delicious, home cooked meals for a price they can afford. I aim to provide
+                            authentic Indian cusine and introduce others to new dishes and Indian cooking they have never tried before.
                         </p>
                     </div>
                 </div>

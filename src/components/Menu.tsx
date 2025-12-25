@@ -15,19 +15,19 @@ const Menu: React.FC = () => {
                 {
                     title: 'Samosa',
                     description: 'Crispy pastry filled with spiced potatoes and peas',
-                    price: 40,
+                    price: 4.50,
                     status: 'available'
                 },
                 {
                     title: 'Pakora',
                     description: 'Deep-fried fritters with mixed vegetables',
-                    price: 60,
+                    price: 6.00,
                     status: 'available'
                 },
                 {
                     title: 'Paneer Tikka',
                     description: 'Grilled cottage cheese marinated in spices',
-                    price: 120,
+                    price: 12.00,
                     status: 'out-of-stock'
                 },
             ]
@@ -36,27 +36,27 @@ const Menu: React.FC = () => {
             title: 'Mains',
             items: [
                 {
-                    title: 'Butter Chicken',
-                    description: 'Tender chicken in rich tomato and cream sauce',
-                    price: 280,
+                    title: 'Potato Curry',
+                    description: 'Spicy potato curry in tomato sauce with traditional Indian spices and herbs',
+                    price: 7.00,
                     status: 'available'
                 },
                 {
                     title: 'Dal Makhani',
                     description: 'Slow-cooked black lentils with butter and cream',
-                    price: 180,
+                    price: 9.50,
                     status: 'available'
                 },
                 {
                     title: 'Paneer Butter Masala',
                     description: 'Cottage cheese in creamy tomato gravy',
-                    price: 220,
+                    price: 12.00,
                     status: 'available'
                 },
                 {
                     title: 'Biryani Special',
                     description: 'Aromatic rice with marinated chicken and spices',
-                    price: 250,
+                    price: 8.75,
                     status: 'coming-soon',
                     availableDate: 'Jan 5, 2026'
                 },
@@ -68,19 +68,19 @@ const Menu: React.FC = () => {
                 {
                     title: 'Butter Naan',
                     description: 'Soft leavened bread brushed with butter',
-                    price: 40,
+                    price: 2.25,
                     status: 'available'
                 },
                 {
                     title: 'Garlic Naan',
                     description: 'Naan topped with fresh garlic and coriander',
-                    price: 50,
+                    price: 2.75,
                     status: 'available'
                 },
                 {
                     title: 'Roti',
                     description: 'Traditional whole wheat flatbread',
-                    price: 20,
+                    price: 2.00,
                     status: 'available'
                 },
             ]
@@ -91,13 +91,13 @@ const Menu: React.FC = () => {
                 {
                     title: 'Gulab Jamun',
                     description: 'Soft milk dumplings in sweet syrup',
-                    price: 60,
-                    status: 'available'
+                    price: 6.00,
+                    status: 'out-of-stock'
                 },
                 {
                     title: 'Ras Malai',
                     description: 'Soft paneer patties in sweet milk',
-                    price: 80,
+                    price: 5.50,
                     status: 'coming-soon',
                     availableDate: 'Dec 30, 2025'
                 },
@@ -108,7 +108,7 @@ const Menu: React.FC = () => {
     return (
         <section id="menu" className="menu-section">
             <div className="menu-container">
-                <h2 className="section-title">Our Menu</h2>
+                <h2 className="section-title">My Menu</h2>
                 {menuData.map((subsection, index) => (
                     <div key={index} className="menu-subsection">
                         <h3 className="subsection-title">{subsection.title}</h3>

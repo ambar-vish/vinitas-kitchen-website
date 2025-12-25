@@ -54,7 +54,7 @@ const Reviews: React.FC = () => {
                     {renderStars(5)}
                     <p className="rating-text">Based on Google Reviews</p>
                     <a
-                        href="https://www.google.com/maps/place/your-business-name"
+                        href="https://g.page/r/CbXwSppy1JVlEAE/review"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="leave-review-button"

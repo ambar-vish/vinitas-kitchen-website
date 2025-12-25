@@ -11,13 +11,13 @@ const WhatsAppSection: React.FC = () => {
                 </p>
                 <div className="whatsapp-content">
                     <div className="qr-code-placeholder">
-                        <span>QR Code</span>
-                        <p>Scan to join</p>
+                        {/* Style so that it fits the size of the DIV */}
+                        <img src="public/whattsapp_qr.jpeg" alt="WhatsApp QR Code" style={{ width: "100%", height: "auto" }} />
                     </div>
                     <div className="whatsapp-text">
                         <p>Scan the QR code or click the button below to join our WhatsApp group</p>
                         <a
-                            href="https://wa.me/your-whatsapp-number"
+                            href="https://chat.whatsapp.com/EKjpFJTmXaZ7JteNMlI9bW"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="whatsapp-button"

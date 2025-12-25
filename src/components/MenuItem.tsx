@@ -28,7 +28,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
             <div className="menu-item-content">
                 <div className="menu-item-header">
                     <h4 className="menu-item-title">{title}</h4>
-                    <span className="menu-item-price">₹{price.toFixed(2)}</span>
+                    <span className="menu-item-price">£{price.toFixed(2)}</span>
                 </div>
                 <p className="menu-item-description">{description}</p>
                 {status === 'out-of-stock' && (
